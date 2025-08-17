@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme{
-  --color-primary: rgb(255, 170, 0);
-  --color-primary-dull: rgb(255, 213, 0);
+  --color-primary: rgb(255, 180, 0);
+  --color-primary-dull: rgb(255, 150, 0);
 }
 
 *{
@@ -15,4 +15,8 @@
 body{
   color: rgb(190, 255, 252);
   background-color: #0d0d16;
+}
+
+.no-scrollbar{
+  scrollbar-width: none;
 }
