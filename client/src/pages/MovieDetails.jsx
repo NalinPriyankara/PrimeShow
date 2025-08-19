@@ -55,7 +55,9 @@ const MovieDetails = () => {
             <button className='flex items-center gap-2 px-7 py-3 text-sm bg-gray-800 hover:bg-gray-900 transition rounded-md font-medium cursor-pointer active:scale-95'>
               <PlayCircle className='size-5' />
             </button>
-            <a href='#dateSelect' className='block px-10 py-3 text-sm bg-primary hover:bg-primary-dull text-black transition-all rounded-md font-medium cursor-pointer active:scale-95'>Buy Tickets</a>
+            <div className="w-fit">
+              <a href='#dateSelect' className='block px-10 py-3 text-sm bg-primary hover:bg-primary-dull text-black transition-all rounded-md font-medium cursor-pointer active:scale-95'>Buy Tickets</a>
+            </div>
             <button className='bg-gray-700 p-2.5 rounded-full transition cursor-pointer active:scale-95'>
               <Heart className='size-5' />
             </button>
